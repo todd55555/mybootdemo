@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b693752e-ca79-425a-8144-1276ec04e707" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spring_boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/java/com/todd/my_spring_boot/MySpringBootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/java/com/todd/my_spring_boot/modle/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/java/com/todd/my_spring_boot/service/IndexService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/resources/static/indexDir/lucen_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/test/java/com/todd/my_spring_boot/MySpringBootApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/work/soft/plug/apache-maven-3.6.3/bin" />
+        <option name="userSettingsFile" value="/Library/work/soft/plug/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="11" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XC4fMCgSwvvksniLKgCc4ywTZ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MybootdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybootdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.todd.mybootdemo.MybootdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b693752e-ca79-425a-8144-1276ec04e707" name="Default Changelist" comment="" />
+      <created>1580536844784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580536844784</updated>
+      <workItem from="1580536853254" duration="2755000" />
+      <workItem from="1580540001953" duration="407000" />
+    </task>
+    <task id="LOCAL-00001" summary="[ADD] 提交学习demo">
+      <created>1580540367117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580540367117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[ADD] 提交学习demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] 提交学习demo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="160" key="CommitChangelistDialog2" timestamp="1580540366941">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="337" y="160" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580540366941" />
+    <state x="753" y="460" key="Github.ShareDialog" timestamp="1580540392410">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="753" y="460" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1580540392410" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1580540148306">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1580540148306" />
+    <state x="273" y="264" key="new project wizard" timestamp="1580536995201">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1580536995201" />
+  </component>
+</project>
