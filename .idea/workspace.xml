@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b693752e-ca79-425a-8144-1276ec04e707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boot_es_module/src/main/java/com/todd/boot_es_module/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_es_module/src/main/java/com/todd/boot_es_module/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_spring_boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spring_boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/java/com/todd/my_spring_boot/MySpringBootApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/java/com/todd/my_spring_boot/modle/Article.java" beforeDir="false" />
@@ -9,6 +11,12 @@
       <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/main/resources/static/indexDir/lucen_template.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_spring_boot/src/test/java/com/todd/my_spring_boot/MySpringBootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_es_module/boot_es_module.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_es_module/boot_es_module.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_es_module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_es_module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_es_module/src/main/java/com/todd/boot_es_module/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_es_module/src/main/java/com/todd/boot_es_module/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_es_module/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_es_module/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,7 +37,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="/Library/work/soft/plug/apache-maven-3.6.3/bin" />
+        <option name="mavenHome" value="/Library/work/soft/plug/apache-maven-3.6.3" />
+        <option name="usePluginRegistry" value="true" />
         <option name="userSettingsFile" value="/Library/work/soft/plug/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -51,12 +61,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.BootEsModuleApplication">
+    <configuration name="BootEsModuleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot_es_module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.todd.boot_es_module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.todd.boot_es_module.BootEsModuleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybootdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybootdemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.todd.mybootdemo.MybootdemoApplication" />
@@ -64,6 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BootEsModuleApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -88,7 +120,10 @@
       <option name="presentableId" value="Default" />
       <updated>1580536844784</updated>
       <workItem from="1580536853254" duration="2755000" />
-      <workItem from="1580540001953" duration="407000" />
+      <workItem from="1580540001953" duration="4369000" />
+      <workItem from="1580545918119" duration="546000" />
+      <workItem from="1580546469300" duration="175000" />
+      <workItem from="1580546647363" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] 提交学习demo">
       <created>1580540367117</created>
@@ -97,11 +132,31 @@
       <option name="project" value="LOCAL" />
       <updated>1580540367117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[ADD] 提交学习demo">
+      <created>1580540455319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580540455319</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -109,21 +164,57 @@
     <option name="LAST_COMMIT_MESSAGE" value="[ADD] 提交学习demo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="160" key="CommitChangelistDialog2" timestamp="1580540366941">
+    <state x="337" y="160" key="CommitChangelistDialog2" timestamp="1580540455199">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="337" y="160" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580540366941" />
-    <state x="753" y="460" key="Github.ShareDialog" timestamp="1580540392410">
+    <state x="337" y="160" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580540455199" />
+    <state x="753" y="460" key="Github.ShareDialog" timestamp="1580540483827">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="753" y="460" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1580540392410" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1580540148306">
+    <state x="753" y="460" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1580540483827" />
+    <state width="1750" height="335" key="GridCell.Tab.0.bottom" timestamp="1580546971889">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1580540148306" />
+    <state width="1750" height="335" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1580546971889" />
+    <state width="1750" height="335" key="GridCell.Tab.0.center" timestamp="1580546971888">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1580546971888" />
+    <state width="1750" height="335" key="GridCell.Tab.0.left" timestamp="1580546971888">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1580546971888" />
+    <state width="1750" height="335" key="GridCell.Tab.0.right" timestamp="1580546971889">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1580546971889" />
+    <state width="1750" height="335" key="GridCell.Tab.1.bottom" timestamp="1580545904383">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1580545904383" />
+    <state width="1750" height="335" key="GridCell.Tab.1.center" timestamp="1580545904382">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1580545904382" />
+    <state width="1750" height="335" key="GridCell.Tab.1.left" timestamp="1580545904382">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1580545904382" />
+    <state width="1750" height="335" key="GridCell.Tab.1.right" timestamp="1580545904382">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="335" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1580545904382" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1580546500943">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1580546500943" />
     <state x="273" y="264" key="new project wizard" timestamp="1580536995201">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1580536995201" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1580543322845">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1580543322845" />
   </component>
 </project>

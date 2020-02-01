@@ -1,5 +1,11 @@
 package com.todd.boot_es_module.entity;
 
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+
+import java.io.Serializable;
+
 /**
  * @ClassName User
  * @Description
@@ -7,6 +13,18 @@ package com.todd.boot_es_module.entity;
  * @Date 2020/2/1 2:56 下午
  * @Version v.1.0
  **/
-public class User {
+
+@Data
+@Document(indexName = "user",type = "java")
+public class User implements Serializable {
+
+    @Id
+    private Long id;
+
+    private String name;
+
+    private Integer sex;
+
+    private String mobile;
 
 }
